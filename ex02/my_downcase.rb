@@ -1,3 +1,3 @@
-def my_upcase(str)
-  str.downcase()
+def my_downcase(str)
+  return str.downcase
 end
