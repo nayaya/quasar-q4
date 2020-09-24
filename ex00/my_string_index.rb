@@ -1,8 +1,6 @@
-def my_string_index(haystack, needle)
-  haystack_array = haystack.split('')
-  index = -1
-  haystack_array.each_with_index do |character, i|
-     index = character == needle ? i : index
+def my_string_index(param_1, param_2)
+  haystack_array = param_1.split('')
+  for character in haystack_array do
+    return haystack_array.index(character) if character == param_2
   end
-  return index
 end
