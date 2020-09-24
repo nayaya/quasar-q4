@@ -1,3 +1,3 @@
 def my_upcase(str)
-  str.upcase()
+  return str.upcase
 end
